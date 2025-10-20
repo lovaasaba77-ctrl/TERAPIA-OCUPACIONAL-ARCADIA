@@ -24,7 +24,7 @@
 <label>Terapeuta: <input type="text" id="terapeuta"></label>
 
 <!-- MOTRICIDAD FINA -->
-<h2>Motricidad Fina</h2>
+<h3>Motricidad Fina</h3>
 <fieldset>
   <label><input type="checkbox" value="Realiza encaje de piezas en tablero"> Realiza encaje de piezas en tablero</label>
   <label><input type="checkbox" value="Realiza ensarte de piezas"> Realiza ensarte de piezas</label>
@@ -41,7 +41,7 @@
 </fieldset>
 
 <!-- GRAFO -->
-<h2>Grafo</h2>
+<h4>Grafo</h4>
 <fieldset>
   <label><input type="checkbox" value="Realiza garabateo espontáneo"> Realiza garabateo espontáneo</label>
   <label><input type="checkbox" value="Realiza pinza trípode con apoyo"> Realiza pinza trípode con apoyo</label>
@@ -61,7 +61,7 @@
 </fieldset>
 
 <!-- VISOPERCEPTUAL -->
-<h2>Visoperceptual</h2>
+<h5>Visoperceptual</h5>
 <fieldset>
   <label><input type="checkbox" value="Construcción visoperceptual"> Construcción visoperceptual</label>
   <label><input type="checkbox" value="Realiza actividad visoperceptual siguiendo esquema"> Realiza actividad visoperceptual siguiendo esquema</label>
@@ -71,7 +71,7 @@
 </fieldset>
 
 <!-- ATENCIÓN -->
-<h2>Atención</h2>
+<h6>Atención</h6>
 <fieldset>
   <label><input type="checkbox" value="Se hace énfasis en la atención sostenida"> Se hace énfasis en la atención sostenida</label>
   <label><input type="checkbox" value="Sigue secuencia de colores"> Sigue secuencia de colores</label>
@@ -83,7 +83,7 @@
 </fieldset>
 
 <!-- ACTIVIDAD ARITMÉTICA -->
-<h2>Actividad Aritmética</h2>
+<h7>Actividad Aritmética</h7>
 <fieldset>
   <label><input type="checkbox" value="Realiza clasificación numérica"> Realiza clasificación numérica</label>
   <label><input type="checkbox" value="Realiza actividad lógico-matemática"> Realiza actividad lógico-matemática</label>
@@ -93,7 +93,7 @@
 </fieldset>
 
 <!-- LECTOESCRITURA -->
-<h2>Lectoescritura</h2>
+<h8>Lectoescritura</h8>
 <fieldset>
   <label><input type="checkbox" value="Identifica vocales"> Identifica vocales</label>
   <label><input type="checkbox" value="Ordena secuencia de vocales"> Ordena secuencia de vocales</label>
@@ -104,7 +104,7 @@
 </fieldset>
 
 <!-- AVD -->
-<h2>Actividades de la Vida Diaria (AVD)</h2>
+<h9>Actividades de la Vida Diaria (AVD)</h9>
 <fieldset>
   <label><input type="checkbox" value="Realiza enhebrado"> Realiza enhebrado</label>
   <label><input type="checkbox" value="Trabaja amarrado de cordones"> Trabaja amarrado de cordones</label>
@@ -113,7 +113,7 @@
 </fieldset>
 
 <!-- LENGUAJE Y COMUNICACIÓN -->
-<h2>Lenguaje y Comunicación</h2>
+<h10>Lenguaje y Comunicación</h10>
 <fieldset>
   <label><input type="checkbox" value="Nominación de colores/objetos"> Nominación de colores/objetos</label>
   <label><input type="checkbox" value="Presentación con su nombre"> Presentación con su nombre</label>
@@ -121,7 +121,7 @@
 </fieldset>
 
 <!-- PROGRAMAS ESPECÍFICOS -->
-<h2>Programas específicos</h2>
+<h11>Programas específicos</h11>
 <fieldset>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "siéntate"'> Se trabaja en comandos verbales como "siéntate"</label>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "COLOCA"'> Se trabaja en comandos verbales como "COLOCA"</label>
@@ -132,7 +132,7 @@
 </fieldset>
 
 <!-- APOYOS Y ESTRATEGIAS -->
-<h2>Tipo de apoyo y estrategias</h2>
+<h12>Tipo de apoyo y estrategias</h12>
 <fieldset>
   <label><input type="checkbox" value="Se realiza supervisión constante del terapeuta"> Se realiza supervisión constante del terapeuta</label>
   <label><input type="checkbox" value="Se realiza apoyo para recordarle los pasos de la actividad"> Se realiza apoyo para recordarle los pasos de la actividad</label>
@@ -152,7 +152,7 @@
 </fieldset>
 
 <!-- CONDUCTAS EN EXCESO -->
-<h2>Conductas en exceso</h2>
+<h13>Conductas en exceso</h13>
 <fieldset>
   <label><input type="checkbox" value="Deja que los objetos se caigan de las manos"> Deja que los objetos se caigan de las manos</label>
   <label><input type="checkbox" value="Lanza objetos sin motivo aparente"> Lanza objetos sin motivo aparente</label>
@@ -169,7 +169,7 @@
 </fieldset>
 
 <!-- CONDUCTAS DURANTE LA TERAPIA -->
-<h2>Conductas durante la terapia</h2>
+<h14>Conductas durante la terapia</h14>
 <fieldset>
   <label><input type="checkbox" value="Permanece sentado durante la sesion"> Permanece sentado durante la sesion</label>
   <label><input type="checkbox" value="Permanece sentado por cortos periodos"> Permanece sentado por cortos periodos</label>
@@ -180,14 +180,14 @@
 </fieldset>
 
 <!-- Observaciones adicionales -->
-<h2>Observaciones adicionales</h2>
+<h15>Observaciones adicionales</h15>
 <textarea id="observaciones" placeholder="Anota conductas, tolerancia, participación, etc."></textarea>
 
 <button onclick="generarInforme()">Generar Informe</button>
 <button onclick="copiarPortapapeles()">Copiar al portapapeles</button>
 <button onclick="descargarPDF()">Descargar PDF</button>
 
-<h2>Informe Final</h2>
+<h16>Informe Final</h16>
 <pre id="informeFinal" style="background:#fff;padding:10px;border:1px solid #ccc;"></pre>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
