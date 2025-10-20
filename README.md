@@ -137,9 +137,6 @@
 <script>
 function generarInforme() {
     const nombre = document.getElementById('nombre').value;
-    const edad = document.getElementById('edad').value;
-    const fecha = document.getElementById('fecha').value;
-    const terapeuta = document.getElementById('terapeuta').value;
     const observaciones = document.getElementById('observaciones').value;
 
     const checkboxes = document.querySelectorAll('input[type=checkbox]');
@@ -150,10 +147,6 @@ function generarInforme() {
 
     const informe = `Datos del Paciente
 Nombre: ${nombre}
-Edad: ${edad}
-Fecha: ${fecha}
-Terapeuta: ${terapeuta}
-
 OBJETIVOS DE PROGRAMAS IMPLEMENTADOS:
 Se implementan programas orientados al desarrollo de habilidades motoras, cognitivas, sensoriales y de autorregulación emocional, mediante estrategias adaptadas al perfil del paciente y su nivel de participación.
 
