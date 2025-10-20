@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -23,8 +24,8 @@
 <label>Fecha: <input type="date" id="fecha"></label>
 <label>Terapeuta: <input type="text" id="terapeuta"></label>
 
-<!-- MOTRICIDAD FINA -->
-<h3>Motricidad Fina</h3>
+<!-- EVALUACION -->
+<h2>EVALUACION</h2>
 <fieldset>
   <label><input type="checkbox" value="Realiza encaje de piezas en tablero"> Realiza encaje de piezas en tablero</label>
   <label><input type="checkbox" value="Realiza ensarte de piezas"> Realiza ensarte de piezas</label>
@@ -38,11 +39,6 @@
   <label><input type="checkbox" value="Recorta figuras"> Recorta figuras</label>
   <label><input type="checkbox" value="Rasga figuras"> Rasga figuras</label>
   <label><input type="checkbox" value="Simula el uso de herramientas (atornilla, desenrosca)"> Simula el uso de herramientas (atornilla, desenrosca)</label>
-</fieldset>
-
-<!-- GRAFO -->
-<h4>Grafo</h4>
-<fieldset>
   <label><input type="checkbox" value="Realiza garabateo espontáneo"> Realiza garabateo espontáneo</label>
   <label><input type="checkbox" value="Realiza pinza trípode con apoyo"> Realiza pinza trípode con apoyo</label>
   <label><input type="checkbox" value="Sigue trazos básicos (línea vertical, horizontal y diagonal)"> Sigue trazos básicos (línea vertical, horizontal y diagonal)</label>
@@ -58,21 +54,11 @@
   <label><input type="checkbox" value="Dificultades al respetar el espacio gráfico"> Dificultades al respetar el espacio gráfico</label>
   <label><input type="checkbox" value="Realiza dibujo libre"> Realiza dibujo libre</label>
   <label><input type="checkbox" value="Dibuja siguiendo esquema"> Dibuja siguiendo esquema</label>
-</fieldset>
-
-<!-- VISOPERCEPTUAL -->
-<h5>Visoperceptual</h5>
-<fieldset>
   <label><input type="checkbox" value="Construcción visoperceptual"> Construcción visoperceptual</label>
   <label><input type="checkbox" value="Realiza actividad visoperceptual siguiendo esquema"> Realiza actividad visoperceptual siguiendo esquema</label>
   <label><input type="checkbox" value="Construye piezas en tres dimensiones usando esquema visual"> Construye piezas en tres dimensiones usando esquema visual</label>
   <label><input type="checkbox" value="Realiza rompecabezas sencillo con apoyo"> Realiza rompecabezas sencillo con apoyo</label>
   <label><input type="checkbox" value="Realiza rompecabezas complejo"> Realiza rompecabezas complejo</label>
-</fieldset>
-
-<!-- ATENCIÓN -->
-<h6>Atención</h6>
-<fieldset>
   <label><input type="checkbox" value="Se hace énfasis en la atención sostenida"> Se hace énfasis en la atención sostenida</label>
   <label><input type="checkbox" value="Sigue secuencia de colores"> Sigue secuencia de colores</label>
   <label><input type="checkbox" value="Clasifica piezas por similitud"> Clasifica piezas por similitud</label>
@@ -80,60 +66,30 @@
   <label><input type="checkbox" value="Realiza clasificación alfabética"> Realiza clasificación alfabética</label>
   <label><input type="checkbox" value="Construye el abecedario con piezas encajables"> Construye el abecedario con piezas encajables</label>
   <label><input type="checkbox" value="Instrucciones sencillas (toma, dame, coloca)"> Instrucciones sencillas (toma, dame, coloca)</label>
-</fieldset>
-
-<!-- ACTIVIDAD ARITMÉTICA -->
-<h7>Actividad Aritmética</h7>
-<fieldset>
   <label><input type="checkbox" value="Realiza clasificación numérica"> Realiza clasificación numérica</label>
   <label><input type="checkbox" value="Realiza actividad lógico-matemática"> Realiza actividad lógico-matemática</label>
   <label><input type="checkbox" value="Realiza actividades aritméticas"> Realiza actividades aritméticas</label>
   <label><input type="checkbox" value="Realiza conteo de piezas y escribe el resultado"> Realiza conteo de piezas y escribe el resultado</label>
   <label><input type="checkbox" value="Realiza conteo de puntos"> Realiza conteo de puntos</label>
-</fieldset>
-
-<!-- LECTOESCRITURA -->
-<h8>Lectoescritura</h8>
-<fieldset>
   <label><input type="checkbox" value="Identifica vocales"> Identifica vocales</label>
   <label><input type="checkbox" value="Ordena secuencia de vocales"> Ordena secuencia de vocales</label>
   <label><input type="checkbox" value="Realiza clasificación alfabética"> Realiza clasificación alfabética</label>
   <label><input type="checkbox" value="Construye oraciones con imágenes"> Construye oraciones con imágenes</label>
   <label><input type="checkbox" value="Construye frases con imágenes"> Construye frases con imágenes</label>
   <label><input type="checkbox" value="Construye historias cortas con imágenes"> Construye historias cortas con imágenes</label>
-</fieldset>
-
-<!-- AVD -->
-<h9>Actividades de la Vida Diaria (AVD)</h9>
-<fieldset>
   <label><input type="checkbox" value="Realiza enhebrado"> Realiza enhebrado</label>
   <label><input type="checkbox" value="Trabaja amarrado de cordones"> Trabaja amarrado de cordones</label>
   <label><input type="checkbox" value="Trabaja abotonado"> Trabaja abotonado</label>
   <label><input type="checkbox" value="Trabaja entrenamiento en alimentación"> Trabaja entrenamiento en alimentación</label>
-</fieldset>
-
-<!-- LENGUAJE Y COMUNICACIÓN -->
-<h10>Lenguaje y Comunicación</h10>
-<fieldset>
   <label><input type="checkbox" value="Nominación de colores/objetos"> Nominación de colores/objetos</label>
   <label><input type="checkbox" value="Presentación con su nombre"> Presentación con su nombre</label>
   <label><input type="checkbox" value="Se le incentiva a hacer y responder preguntas"> Se le incentiva a hacer y responder preguntas</label>
-</fieldset>
-
-<!-- PROGRAMAS ESPECÍFICOS -->
-<h11>Programas específicos</h11>
-<fieldset>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "siéntate"'> Se trabaja en comandos verbales como "siéntate"</label>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "COLOCA"'> Se trabaja en comandos verbales como "COLOCA"</label>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "DAME"'> Se trabaja en comandos verbales como "DAME"</label>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "AQUI"'> Se trabaja en comandos verbales como "AQUI"</label>
   <label><input type="checkbox" value='Se trabaja en comandos verbales como "UNA PIEZA"'> Se trabaja en comandos verbales como "UNA PIEZA"</label>
   <label><input type="checkbox" value='Uso correcto de objetos'> Uso correcto de objetos</label>
-</fieldset>
-
-<!-- APOYOS Y ESTRATEGIAS -->
-<h12>Tipo de apoyo y estrategias</h12>
-<fieldset>
   <label><input type="checkbox" value="Se realiza supervisión constante del terapeuta"> Se realiza supervisión constante del terapeuta</label>
   <label><input type="checkbox" value="Se realiza apoyo para recordarle los pasos de la actividad"> Se realiza apoyo para recordarle los pasos de la actividad</label>
   <label><input type="checkbox" value="Requiere apoyo visual"> Requiere apoyo visual</label>
@@ -149,11 +105,6 @@
   <label><input type="checkbox" value="Se trabaja con instrucciones sencillas"> Se trabaja con instrucciones sencillas</label>
   <label><input type="checkbox" value="Apoyo para fomentar la interacción"> Apoyo para fomentar la interacción</label>
   <label><input type="checkbox" value="Se brindan reforzadores para mantener la atencion"> Se brindan reforzadores para mantener la atencion</label>
-</fieldset>
-
-<!-- CONDUCTAS EN EXCESO -->
-<h13>Conductas en exceso</h13>
-<fieldset>
   <label><input type="checkbox" value="Deja que los objetos se caigan de las manos"> Deja que los objetos se caigan de las manos</label>
   <label><input type="checkbox" value="Lanza objetos sin motivo aparente"> Lanza objetos sin motivo aparente</label>
   <label><input type="checkbox" value="Olfatea objetos frecuentemente"> Olfatea objetos frecuentemente</label>
@@ -166,11 +117,6 @@
   <label><input type="checkbox" value="Se quita los zapatos constantemente"> Se quita los zapatos constantemente</label>
   <label><input type="checkbox" value="Se levanta constantemente de la silla"> Se levanta constantemente de la silla</label>
   <label><input type="checkbox" value="Corre sin sentido en el consultorio"> Corre sin sentido en el consultorio</label>
-</fieldset>
-
-<!-- CONDUCTAS DURANTE LA TERAPIA -->
-<h14>Conductas durante la terapia</h14>
-<fieldset>
   <label><input type="checkbox" value="Permanece sentado durante la sesion"> Permanece sentado durante la sesion</label>
   <label><input type="checkbox" value="Permanece sentado por cortos periodos"> Permanece sentado por cortos periodos</label>
   <label><input type="checkbox" value="Se observa buena respuesta al entorno"> Se observa buena respuesta al entorno</label>
@@ -180,14 +126,14 @@
 </fieldset>
 
 <!-- Observaciones adicionales -->
-<h15>Observaciones adicionales</h15>
+<h2>Observaciones adicionales</h2>
 <textarea id="observaciones" placeholder="Anota conductas, tolerancia, participación, etc."></textarea>
 
 <button onclick="generarInforme()">Generar Informe</button>
 <button onclick="copiarPortapapeles()">Copiar al portapapeles</button>
 <button onclick="descargarPDF()">Descargar PDF</button>
 
-<h16>Informe Final</h16>
+<h2>Informe Final</h2>
 <pre id="informeFinal" style="background:#fff;padding:10px;border:1px solid #ccc;"></pre>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
