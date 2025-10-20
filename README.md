@@ -20,9 +20,6 @@
 
 <h2>Datos del Paciente</h2>
 <label>Nombre: <input type="text" id="nombre"></label>
-<label>Edad: <input type="text" id="edad"></label>
-<label>Fecha: <input type="date" id="fecha"></label>
-<label>Terapeuta: <input type="text" id="terapeuta"></label>
 
 <!-- EVALUACION -->
 <h2>EVALUACION</h2>
