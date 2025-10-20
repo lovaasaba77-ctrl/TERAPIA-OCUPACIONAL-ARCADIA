@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lista de Verificación Terapia Ocupacional 2025</title>
+<title>Lista de Verificación Terapia Ocupacional 2025 DR RUBEN HERRERA DERECHOS RESERVADOS(NO COMPARTIR)</title>
 <style>
   body { font-family: Arial, sans-serif; margin: 20px; background: #f7f7f7; }
   h1, h2 { color: #333; }
