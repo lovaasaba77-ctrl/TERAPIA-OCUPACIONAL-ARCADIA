@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DR RUBEN HERRERA DERECHOS RESERVADOS>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
